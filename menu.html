@@ -445,11 +445,29 @@
                         <div class="wow fadeInUp" data-wow-delay="0.2s">
                             <div class="principal">
                                 <form id="simulador">
-                                    <label for="metrosCuadrados">Metros Cuadrados ($250 x Metro Cuadrado)</label>
+                                    <label for="metrosCuadrados">Metros Cuadrados ($850 x Metro Cuadrado)</label>
                                     <input type="number" placeholder="Metros Cuadrados" id="metrosCuadrados" required />
                                     <br><br>
-                                    <input type="radio" id="fumigacion" name="valorServicios" value="60000" required />
-                                    <label for="fumigacion">Fumigación ($60.000)</label>
+                                    <input type="checkbox" id="pinchosPalomas" name="pinchosAntiPalomas" value="20000" required />
+                                    <label for="pinchosPalomas">Pinchos Anti-Palomas ($20.000)</label>
+                                    <br>
+                                    <input type="checkbox" id="redesPalomas" name="redesAntiPalomas" value="35000" required />
+                                    <label for="redesPalomas">Redes Anti-Palomas ($35.000)</label>
+                                    <br>
+                                    <input type="checkbox" id="gelRep" name="gelRepelente" value="15000" required />
+                                    <label for="gelRep">Gel Repelente ($15.000)</label>
+                                    <br>
+                                    <input type="checkbox" id="dispUltra" name="dispositivoUltrasonido" value="100000" required />
+                                    <label for="dispUltra">Dispositivos de Ultrasonido ($100.000)</label>
+                                    <br>
+                                    <input type="checkbox" id="aveFalsa" name="avesFalsas" value="30000" required />
+                                    <label for="aveFalsa">Aves de Presa Falsas ($30.000)</label>
+                                    <br>
+                                    <input type="checkbox" id="malla" name="mallasMetalicas" value="45000" required />
+                                    <label for="malla">Mallas Metálicas ($45.000)</label>
+                                    <br><br>
+                                    <h6>*Se incluye el valor de la Inspección Inicial ($20.000)</h6>
+                                    <br>
                                     <input type="button" onclick="simularPrecios()" value="Calcular" />
                                 </form>
                                 <div class="data">

@@ -2,10 +2,15 @@ let simulador = document.getElementById('simulador')
 
 function simularPrecios() {
 
-    let metrosCuadrados = document.getElementById('metrosCuadrados').value * 250,
-        fumigacion = document.getElementById('fumigacion').value;
+    let metrosCuadrados = document.getElementById('metrosCuadrados').value * 850,
+        pinchosPalomas = document.getElementById('pinchosPalomas').value,
+        redesPalomas = document.getElementById('redesPalomas').value,
+        gelRep = document.getElementById('gelRep').value,
+        dispUltra = document.getElementById('dispUltra').value,
+        aveFalsa = document.getElementById('aveFalsa').value,
+        malla = document.getElementById('malla').value;
 
-    let total = parseInt(metrosCuadrados) + parseInt(fumigacion)
+    let total = parseInt(metrosCuadrados) + parseInt(pinchosPalomas) + parseInt(redesPalomas) + parseInt(gelRep) + parseInt(dispUltra) + parseInt(aveFalsa) + parseInt(malla) + 20000
 
     UI(total)
 }
