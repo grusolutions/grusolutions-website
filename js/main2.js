@@ -15,6 +15,7 @@ function simularPrecios() {
     UI(total)
 }
 
+
 function UI(total) {
     let precioTotal = document.getElementById('resultado')
     let dataPrint = document.createElement('div')
