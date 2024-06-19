@@ -2,7 +2,7 @@ let simulador = document.getElementById('simulador')
 
 function simularPrecios() {
 
-    let metrosCuadrados = document.getElementById('metrosCuadrados').value * 850,
+    let metrosCuadrados = document.getElementById('metrosCuadrados').value * 250,
         pinchosPalomas = document.getElementById('pinchosPalomas').value,
         redesPalomas = document.getElementById('redesPalomas').value,
         gelRep = document.getElementById('gelRep').value,
